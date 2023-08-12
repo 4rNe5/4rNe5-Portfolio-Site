@@ -1,0 +1,113 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  position: relative;
+  z-index: 100;
+}
+
+.logo-container {
+  display: inline-block;
+  position: relative;
+}
+
+.logo-text {
+  position: absolute;
+  bottom: -20px; /* 텍스트 위치 조정 */
+  left: 0;
+  right: 0;
+  opacity: 0; /* 처음 텍스트를 안 보이게 설정 */
+  text-align: center; /* 가운데 정렬 */
+  transition: opacity 0.3s, bottom 0.3s; /* 애니메이션 효과 지정 */
+}
+
+.logo:hover + .logo-text {
+  bottom: 0; /* 마우스를 올렸을 때 텍스트 위치 변경 */
+  opacity: 1; /* 마우스를 올리면 텍스트가 보이게 설정 */
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 10px #646cffaa);
+  transition-property: transform, filter;
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 10px #61dafbaa);
+  transition-property: transform, filter;
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
+
+.logo {
+  transition-duration: 0.6s; /* 축소되는 시간 설정 (마우스를 뗐을 때) */
+}
+
+/*@keyframes logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.profile-picture {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: -10px;
+}
+
+.profile-title {
+  font-weight: bold;
+  margin-bottom: -10px;
+  font-size: 45px;
+}
+
+
+.profile-name {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: -24px;
+}
+
+.profile-school {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: +40px;
+}
+
+.divider {
+  display: flex;
+  width: 100%;
+  border: 1px solid #888;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
