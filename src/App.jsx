@@ -41,7 +41,7 @@ function App() {
           <span className="logo-text">Github</span>
         </div>
         <div className="logo-container">
-          <a href="mailto:4rNe5@proton.me" target="_blank" rel="noreferrer">
+          <a href="mailto:me@4rne5.dev" target="_blank" rel="noreferrer">
             <img src={maillogo} className="logo" alt="Mail logo" />
           </a>
           <span className="logo-text">Mail</span>
