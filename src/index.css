@@ -5,13 +5,33 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #282828;
+  background-image: url('./assets/mswb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body::before {
+  content: ""; /* 가상 요소를 생성하기 위해 필요한 속성 */
+  position: fixed; /* 배경에 맞춰 가상 요소 크기를 조절 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/mswb.jpg');
+  background-size: cover; /* 이미지를 배경 크기에 맞게 조절 */
+  background-repeat: no-repeat; /* 이미지 반복 방지 */
+  background-position: center; /* 이미지 중앙 정렬 */
+  background-color: rgb(37, 36, 36); /* 배경 색상과 투명도 설정 */
+  background-attachment: fixed;
+  will-change: transform;
+  z-index: -1; /* 컨텐츠 뒤로 보내기 */
 }
 
 
@@ -30,6 +50,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  color: #ffffff;
 }
 
 h1 {

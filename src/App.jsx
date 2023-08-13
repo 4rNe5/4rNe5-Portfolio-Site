@@ -2,16 +2,18 @@ import profile from './assets/lsvg.svg'
 import notionlogo from './assets/notion.svg'
 import instalogo from './assets/instablack.svg'
 import githublogo from './assets/github.svg'
+import maillogo from './assets/mail.svg'
 import './App.css'
 
 function App() {
 
   return (
+    <div className="background-image">
     <>
       <img src={profile} className="profile-picture" alt="Profile picture" />
       <h1 className="profile-title">Intrinsic iOS Developer</h1>
       <h2 className="profile-name"> 박준현 / 4rNe5 </h2>
-      <h3 className="profile-school"> On DGSW 1th Grade </h3>
+      <h3 className="profile-school"> On DGSW </h3>
       <hr className="divider" />
       <div>
 
@@ -35,8 +37,15 @@ function App() {
         </a>
           <span className="logo-text">Github</span>
         </div>
+        <div className="logo-container">
+          <a href="mailto:4rNe5@proton.me" target="_blank" rel="noreferrer">
+            <img src={maillogo} className="logo" alt="Mail logo" />
+          </a>
+          <span className="logo-text">Mail</span>
+        </div>
       </div>
     </>
+    </div>
   )
 }
 

@@ -35,14 +35,7 @@
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 10px #646cffaa);
-  transition-property: transform, filter;
-  transition-duration: 0.5s;
-  transform: scale(1.2);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 10px #61dafbaa);
+  filter: drop-shadow(0 0 10px rgb(255, 0, 0));
   transition-property: transform, filter;
   transition-duration: 0.5s;
   transform: scale(1.2);
@@ -52,14 +45,6 @@
   transition-duration: 0.6s; /* 축소되는 시간 설정 (마우스를 뗐을 때) */
 }
 
-/*@keyframes logo-spin {*/
-/*  from {*/
-/*    transform: rotate(0deg);*/
-/*  }*/
-/*  to {*/
-/*    transform: rotate(360deg);*/
-/*  }*/
-/*}*/
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -85,29 +70,30 @@
 
 .profile-title {
   font-weight: bold;
-  margin-bottom: -10px;
-  font-size: 45px;
+  margin-bottom: -15px;
+  font-size: 43px;
 }
 
 
 .profile-name {
   font-weight: bold;
-  font-size: 30px;
-  margin-bottom: -24px;
+  font-size: 28px;
+  margin-bottom: -20px;
 }
 
 .profile-school {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: +40px;
 }
 
 .divider {
   display: flex;
   width: 100%;
-  border: 1px solid #888;
+  border: 1px solid #949494;
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
 
 
