@@ -12,6 +12,8 @@
   transition: filter 300ms;
   position: relative;
   z-index: 100;
+  width: 60px;
+  height: 60px;
 }
 
 .logo-container {

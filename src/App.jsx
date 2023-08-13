@@ -16,7 +16,6 @@ function App() {
       <h3 className="profile-school"> On DGSW </h3>
       <hr className="divider" />
       <div>
-
         <div className="logo-container">
           <a href="http://portfolio.4rne5.kro.kr" target="_blank" rel="noreferrer">
             <img src={notionlogo} className="logo" alt="Notion logo" />
