@@ -1,8 +1,8 @@
 import profile from './assets/lsvg.svg'
 import notionlogo from './assets/notion.svg'
-import instalogo from './assets/instablack.svg'
-import githublogo from './assets/github.svg'
-import maillogo from './assets/mail.svg'
+import instalogo from './assets/instagram2.svg'
+import githublogo from './assets/github2.svg'
+import maillogo from './assets/mail2.svg'
 import './App.css'
 
 function App() {
