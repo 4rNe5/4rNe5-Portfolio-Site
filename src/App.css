@@ -37,7 +37,7 @@
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 10px rgb(255, 0, 0));
+  filter: drop-shadow(0 0 10px rgb(61, 60, 60));
   transition-property: transform, filter;
   transition-duration: 0.5s;
   transform: scale(1.2);
@@ -95,9 +95,48 @@
 .divider {
   display: flex;
   width: 100%;
-  border: 1px solid #949494;
+  border: 1px solid #ffffff;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .logo {
+    height: 6em;
+    padding: 1em;
+    width: 50px;
+    height: 50px;
+  }
+
+  .profile-picture {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: -10px;
+  }
+
+  .profile-title {
+    font-weight: bold;
+    margin-bottom: -15px;
+    font-size: 25px;
+    font-family: "Apple SD Gothic Neo";
+  }
+
+
+  .profile-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -20px;
+    font-family: "Apple SD Gothic Neo";
+  }
+
+  .profile-school {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: +15px;
+    font-family: "Apple SD Gothic Neo";
+  }
 }
 
 
