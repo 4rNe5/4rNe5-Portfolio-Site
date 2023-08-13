@@ -1,8 +1,11 @@
 import profile from './assets/lsvg.svg'
 import notionlogo from './assets/notion.svg'
 import instalogo from './assets/instagram2.svg'
-import githublogo from './assets/github2.svg'
+import githublogo from './assets/github.svg'
 import maillogo from './assets/mail2.svg'
+import moneylogo from './assets/money.svg'
+import telegramlogo from './assets/telegram.svg'
+import linkedinlogo from './assets/linkedin.svg'
 import './App.css'
 
 function App() {
@@ -16,6 +19,7 @@ function App() {
       <h3 className="profile-school"> On DGSW </h3>
       <hr className="divider" />
       <div>
+        <div className="fstline">
         <div className="logo-container">
           <a href="http://4rne5-portfolio.kro.kr" target="_blank" rel="noreferrer">
             <img src={notionlogo} className="logo" alt="Notion logo" />
@@ -41,6 +45,27 @@ function App() {
             <img src={maillogo} className="logo" alt="Mail logo" />
           </a>
           <span className="logo-text">Mail</span>
+        </div>
+      </div>
+        <div>
+          <div className="logo-container">
+            <a href="https://toss.me/4rne5" target="_blank" rel="noreferrer">
+              <img src={moneylogo} className="logo" alt="Money logo" />
+            </a>
+            <span className="logo-text">Mail</span>
+          </div>
+          <div className="logo-container">
+            <a href="https://t.me/A4rne5" target="_blank" rel="noreferrer">
+              <img src={telegramlogo} className="logo" alt="Telegram logo" />
+            </a>
+            <span className="logo-text">Mail</span>
+          </div>
+          <div className="logo-container">
+            <a href="https://www.linkedin.com/in/%EC%A4%80%ED%98%84-%EB%B0%95-5b0071288" target="_blank" rel="noreferrer">
+              <img src={linkedinlogo} className="logo" alt="linkedin logo" />
+            </a>
+            <span className="logo-text">Mail</span>
+          </div>
         </div>
       </div>
     </>

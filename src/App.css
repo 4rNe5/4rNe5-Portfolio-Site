@@ -21,6 +21,10 @@
   position: relative;
 }
 
+.fstline {
+  margin-bottom: -20px;
+}
+
 .logo-text {
   position: absolute;
   bottom: -20px; /* 텍스트 위치 조정 */
@@ -101,6 +105,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .fstline {
+    margin-bottom: -10px;
+  }
+
   .logo {
     height: 6em;
     padding: 1em;
@@ -119,14 +127,14 @@
   .profile-title {
     font-weight: bold;
     margin-bottom: -15px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Apple SD Gothic Neo";
   }
 
 
   .profile-name {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: -20px;
     font-family: "Apple SD Gothic Neo";
   }
