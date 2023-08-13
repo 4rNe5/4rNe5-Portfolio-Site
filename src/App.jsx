@@ -17,7 +17,7 @@ function App() {
       <hr className="divider" />
       <div>
         <div className="logo-container">
-          <a href="http://portfolio.4rne5.kro.kr" target="_blank" rel="noreferrer">
+          <a href="http://4rne5-portfolio.kro.kr" target="_blank" rel="noreferrer">
             <img src={notionlogo} className="logo" alt="Notion logo" />
           </a>
           <span className="logo-text">Notion</span>
