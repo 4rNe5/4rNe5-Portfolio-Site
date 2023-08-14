@@ -48,7 +48,7 @@
 }
 
 .logo {
-  transition-duration: 0.6s; /* 축소되는 시간 설정 (마우스를 뗐을 때) */
+  transition: transform 0.3s ease-out;
 }
 
 
