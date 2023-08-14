@@ -5,7 +5,7 @@ import githublogo from './assets/github2.svg'
 import maillogo from './assets/mail2.svg'
 import moneylogo from './assets/money5.svg'
 import telegramlogo from './assets/telegram.svg'
-import linkedinlogo from './assets/linkedin.svg'
+import linkedinlogo from './assets/linkedin2.svg'
 import './App.css'
 
 function App() {
