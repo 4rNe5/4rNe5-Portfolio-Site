@@ -61,7 +61,7 @@ function App() {
             <span className="logo-text">Mail</span>
           </div>
           <div className="logo-container">
-            <a href="https://www.linkedin.com/in/%EC%A4%80%ED%98%84-%EB%B0%95-5b0071288" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/4rNe5" target="_blank" rel="noreferrer">
               <img src={linkedinlogo} className="logo" alt="linkedin logo" />
             </a>
             <span className="logo-text">Mail</span>
