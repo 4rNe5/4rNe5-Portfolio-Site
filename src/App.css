@@ -78,7 +78,7 @@
   font-weight: bold;
   margin-bottom: -15px;
   font-size: 43px;
-  font-family: "Apple SD Gothic Neo";
+  font-family: "Noto Sans KR";
 }
 
 
@@ -86,14 +86,14 @@
   font-weight: bold;
   font-size: 28px;
   margin-bottom: -20px;
-  font-family: "Apple SD Gothic Neo";
+  font-family: "Noto Sans KR";
 }
 
 .profile-school {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: +40px;
-  font-family: "Apple SD Gothic Neo";
+  font-family: "Noto Sans KR";
 }
 
 .divider {
@@ -103,6 +103,15 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+.divider2 {
+  display: flex;
+  width: 90%;
+  border: 1px solid #ffffff;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
 
 @media (min-width: 320px) and (max-width: 480px) {
   .fstline {

@@ -6,6 +6,8 @@ import maillogo from './assets/mail2.svg'
 import moneylogo from './assets/money5.svg'
 import telegramlogo from './assets/telegram.svg'
 import linkedinlogo from './assets/linkedin2.svg'
+import figmalogo from './assets/figma.svg'
+import discordlogo from './assets/discord.svg'
 import './App.css'
 
 function App() {
@@ -20,20 +22,18 @@ function App() {
       <hr className="divider" />
       <div>
         <div className="fstline">
-        <div className="logo-container">
-          <a href="http://4rne5-portfolio.kro.kr" target="_blank" rel="noreferrer">
-            <img src={notionlogo} className="logo" alt="Notion logo" />
-          </a>
-          <span className="logo-text">Notion</span>
-        </div>
-
-        <div className="logo-container">
-        <a href="https://www.instagram.com/4_rne5/" target="_blank" rel="noreferrer">
-          <img src={instalogo} className="logo" alt="Insta logo" />
-        </a>
-          <span className="logo-text">Instagram</span>
-        </div>
-
+          <div className="logo-container">
+            <a href="https://www.instagram.com/4_rne5/" target="_blank" rel="noreferrer">
+              <img src={instalogo} className="logo" alt="Insta logo" />
+            </a>
+            <span className="logo-text">Instagram</span>
+          </div>
+          <div className="logo-container">
+            <a href="https://www.discord.com/users/796907962811285506" target="_blank" rel="noreferrer">
+              <img src={discordlogo} className="logo" alt="discord logo" />
+            </a>
+            <span className="logo-text">Mail</span>
+          </div>
         <div className="logo-container">
         <a href="https://github.com/4rNe5" target="_blank" rel="noreferrer">
           <img src={githublogo} className="logo" alt="Github logo" />
@@ -46,17 +46,23 @@ function App() {
           </a>
           <span className="logo-text">Mail</span>
         </div>
-      </div>
-        <div>
-          <div className="logo-container">
-            <a href="https://toss.me/4rne5" target="_blank" rel="noreferrer">
-              <img src={moneylogo} className="logo" alt="Money logo" />
-            </a>
-            <span className="logo-text">Mail</span>
-          </div>
           <div className="logo-container">
             <a href="https://t.me/A4rne5" target="_blank" rel="noreferrer">
               <img src={telegramlogo} className="logo" alt="Telegram logo" />
+            </a>
+            <span className="logo-text">Mail</span>
+          </div>
+      </div>
+        <div>
+          <div className="logo-container">
+            <a href="http://4rne5-portfolio.kro.kr" target="_blank" rel="noreferrer">
+              <img src={notionlogo} className="logo" alt="Notion logo" />
+            </a>
+            <span className="logo-text">Notion</span>
+          </div>
+          <div className="logo-container">
+            <a href="https://toss.me/4rne5" target="_blank" rel="noreferrer">
+              <img src={moneylogo} className="logo" alt="Money logo" />
             </a>
             <span className="logo-text">Mail</span>
           </div>
@@ -65,6 +71,12 @@ function App() {
               <img src={linkedinlogo} className="logo" alt="linkedin logo" />
             </a>
             <span className="logo-text">Mail</span>
+            <div className="logo-container">
+              <a href="https://www.figma.com/@4rne5" target="_blank" rel="noreferrer">
+                <img src={figmalogo} className="logo" alt="Figma logo" />
+              </a>
+              <span className="logo-text">Mail</span>
+            </div>
           </div>
         </div>
       </div>
