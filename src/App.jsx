@@ -40,13 +40,7 @@ function App() {
         </a>
           <span className="logo-text">Github</span>
         </div>
-        <div className="logo-container">
-          <a href="mailto:me@4rne5.dev" target="_blank" rel="noreferrer">
-            <img src={maillogo} className="logo" alt="Mail logo" />
-          </a>
-          <span className="logo-text">Mail</span>
-        </div>
-          <div className="logo-container">
+          <div className="logo-container hidem">
             <a href="https://t.me/A4rne5" target="_blank" rel="noreferrer">
               <img src={telegramlogo} className="logo" alt="Telegram logo" />
             </a>
@@ -61,6 +55,12 @@ function App() {
             <span className="logo-text">Notion</span>
           </div>
           <div className="logo-container">
+            <a href="mailto:me@4rne5.dev" target="_blank" rel="noreferrer">
+              <img src={maillogo} className="logo" alt="Mail logo" />
+            </a>
+            <span className="logo-text">Mail</span>
+          </div>
+          <div className="logo-container">
             <a href="https://toss.me/4rne5" target="_blank" rel="noreferrer">
               <img src={moneylogo} className="logo" alt="Money logo" />
             </a>
@@ -71,12 +71,6 @@ function App() {
               <img src={linkedinlogo} className="logo" alt="linkedin logo" />
             </a>
             <span className="logo-text">Mail</span>
-            <div className="logo-container">
-              <a href="https://www.figma.com/@4rne5" target="_blank" rel="noreferrer">
-                <img src={figmalogo} className="logo" alt="Figma logo" />
-              </a>
-              <span className="logo-text">Mail</span>
-            </div>
           </div>
         </div>
       </div>
