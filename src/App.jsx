@@ -6,7 +6,6 @@ import maillogo from './assets/mail2.svg'
 import moneylogo from './assets/money5.svg'
 import telegramlogo from './assets/telegram.svg'
 import linkedinlogo from './assets/linkedin2.svg'
-import figmalogo from './assets/figma.svg'
 import discordlogo from './assets/discord.svg'
 import './App.css'
 
