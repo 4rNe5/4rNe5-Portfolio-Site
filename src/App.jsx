@@ -10,7 +10,6 @@ import discordlogo from './assets/discord.svg'
 import './App.css'
 
 function App() {
-
   return (
     <div className="background-image">
     <>
