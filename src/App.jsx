@@ -14,10 +14,13 @@ function App() {
   return (
     <div className="background-image">
     <>
+      <div className="profdiv">
       <img src={profile} className="profile-picture" alt="Profile picture" />
-      <h1 className="profile-title">Intrinsic iOS Developer</h1>
-      <h2 className="profile-name"> 박준현 / 4rNe5 </h2>
-      <h3 className="profile-school"> On DGSW </h3>
+        <div className="texts">
+          <h1 className="profile-title">Intrinsic iOS Developer</h1>
+          <h2 className="profile-name"> 박준현 / 4rNe5 </h2>
+        </div>
+      </div>
       <hr className="divider" />
       <div>
         <div className="fstline">
