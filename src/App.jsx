@@ -1,4 +1,4 @@
-import profile from './assets/lsvg.svg'
+import profile from './assets/ppr.svg'
 import notionlogo from './assets/notion.svg'
 import instalogo from './assets/instagram2.svg'
 import githublogo from './assets/github2.svg'
