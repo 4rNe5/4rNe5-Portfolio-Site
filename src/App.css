@@ -41,7 +41,7 @@
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 10px rgb(61, 60, 60));
+  filter: drop-shadow(0 0 10px rgb(0, 0, 0));
   transition-property: transform, filter;
   transition-duration: 0.5s;
   transform: scale(1.2);
