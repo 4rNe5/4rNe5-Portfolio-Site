@@ -99,7 +99,7 @@
 .divider {
   display: flex;
   width: 100%;
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -107,7 +107,7 @@
 .divider2 {
   display: flex;
   width: 90%;
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
   margin-top: 5px;
   margin-bottom: 30px;
 }
