@@ -29,7 +29,7 @@ body::before {
   background-size: cover; /* 이미지를 배경 크기에 맞게 조절 */
   background-repeat: no-repeat; /* 이미지 반복 방지 */
   background-position: center; /* 이미지 중앙 정렬 */
-  background-color: rgb(37, 36, 36); /* 배경 색상과 투명도 설정 */
+  background-color: rgb(255, 255, 255); /* 배경 색상과 투명도 설정 */
   background-attachment: fixed;
   will-change: transform;
   z-index: -1; /* 컨텐츠 뒤로 보내기 */
