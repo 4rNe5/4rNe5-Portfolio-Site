@@ -112,7 +112,7 @@
   margin-bottom: 30px;
 }
 
-@media (min-width: 320px) and (max-width: 360px) {
+@media (min-width: 320px) and (max-width: 370px) {
   .fstline {
     margin-bottom: -10px;
   }
