@@ -158,5 +158,18 @@
 
 }
 
+@media (prefers-color-scheme: dark) {
+  .divider {
+    border: 1px solid #000000;
+  }
 
+  .divider2 {
+    border: 1px solid #000000;
+  }
+
+  .logo:hover {
+    filter: drop-shadow(0 0 10px rgb(215, 206, 206));
+  }
+
+}
 
