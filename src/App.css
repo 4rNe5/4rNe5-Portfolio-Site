@@ -112,8 +112,53 @@
   margin-bottom: 30px;
 }
 
+@media (min-width: 360px) and (max-width: 480px) {
+  .fstline {
+    margin-bottom: -10px;
+  }
 
-@media (min-width: 320px) and (max-width: 480px) {
+  .logo {
+    height: 6em;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 5px;
+  }
+
+  .profile-picture {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: -10px;
+  }
+
+  .profile-title {
+    font-weight: bold;
+    margin-bottom: -15px;
+    font-size: 30px;
+    font-family: "Apple SD Gothic Neo";
+  }
+
+
+  .profile-name {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: -20px;
+    font-family: "Apple SD Gothic Neo";
+  }
+
+  .profile-school {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: +15px;
+    font-family: "Apple SD Gothic Neo";
+  }
+
+}
+
+
+@media (min-width: 360px) and (max-width: 480px) {
   .fstline {
     margin-bottom: -10px;
   }
