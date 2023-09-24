@@ -111,6 +111,6 @@ button:focus-visible {
     background-color: rgb(255, 255, 255); /* 배경 색상과 투명도 설정 */
   }
   body {
-    color: #ffffff;
+    color: #000000;
   }
 }
