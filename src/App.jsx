@@ -25,7 +25,7 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    const matcher = window.matchMedia('(prefers-color-scheme: dark)');
+    const matcher = window.matchMedia('(prefers-color-scheme : light)');
     setIsDarkMode(matcher.matches);
     matcher.addEventListener('change', (e) => setIsDarkMode(e.matches));
 
