@@ -160,11 +160,11 @@
 
 @media (prefers-color-scheme: dark) {
   .divider {
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
   }
 
   .divider2 {
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
   }
 
   .logo:hover {
