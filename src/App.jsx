@@ -1,6 +1,8 @@
+// Code import
 import { useEffect, useState } from 'react';
 import './App.css'
 
+// Light mode SVG
 import profile from './assets/ppr.svg'
 import notionlogo from './assets/notion.svg'
 import instalogo from './assets/instagram2.svg'
@@ -11,6 +13,7 @@ import telegramlogo from './assets/telegram.svg'
 import linkedinlogo from './assets/linkedin2.svg'
 import discordlogo from './assets/discord.svg'
 
+// Dark mode SVG
 import notiondark from './assetdark/notion.svg'
 import instadark from './assetdark/instagram.svg'
 import githubdark from './assetdark/github.svg'
@@ -78,7 +81,7 @@ function App() {
             <span className="logo-text">Notion</span>
           </div>
           <div className="logo-container">
-            <a href="mailto:me@4rne5.dev" target="_blank" rel="noreferrer">
+            <a href="mailto:contact@4rne5.dev" target="_blank" rel="noreferrer">
               <img src={isDarkMode ? maildark : maillogo} className="logo" alt="Mail logo" />
             </a>
             <span className="logo-text">Mail</span>
