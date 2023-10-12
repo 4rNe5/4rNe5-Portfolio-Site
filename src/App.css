@@ -226,6 +226,8 @@
   .divider2 {
     border: 1px solid #000000;
   }
-
+  .logo:hover {
+    filter: drop-shadow(0 0 10px rgb(255, 235, 60));
+  }
 }
 
