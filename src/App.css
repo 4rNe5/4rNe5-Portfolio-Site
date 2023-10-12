@@ -78,7 +78,7 @@
   font-weight: bold;
   margin-bottom: -15px;
   font-size: 43px;
-  font-family: "Noto Sans KR";
+  font-family:'Pretendard-Regular';
 }
 
 
@@ -86,14 +86,14 @@
   font-weight: bold;
   font-size: 28px;
   margin-bottom: -20px;
-  font-family: "Noto Sans KR";
+  font-family:'Pretendard-Regular';
 }
 
 .profile-school {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: +40px;
-  font-family: "Noto Sans KR";
+  font-family:'Pretendard-Regular';
 }
 
 .divider {
@@ -137,7 +137,7 @@
     font-weight: bold;
     margin-bottom: -15px;
     font-size: 30px;
-    font-family: "Apple SD Gothic Neo";
+    font-family:'Pretendard-Regular';
   }
 
 
@@ -145,14 +145,14 @@
     font-weight: bold;
     font-size: 22px;
     margin-bottom: -20px;
-    font-family: "Apple SD Gothic Neo";
+    font-family:'Pretendard-Regular';
   }
 
   .profile-school {
     font-weight: bold;
     font-size: 17px;
     margin-bottom: +15px;
-    font-family: "Apple SD Gothic Neo";
+    font-family:'Pretendard-Regular';
   }
 
 }
@@ -183,7 +183,7 @@
     font-weight: bold;
     margin-bottom: -15px;
     font-size: 30px;
-    font-family: "Apple SD Gothic Neo";
+    font-family:'Pretendard-Regular';
   }
 
 
@@ -191,14 +191,14 @@
     font-weight: bold;
     font-size: 22px;
     margin-bottom: -20px;
-    font-family: "Apple SD Gothic Neo";
+    font-family:'Pretendard-Regular';
   }
 
   .profile-school {
     font-weight: bold;
     font-size: 17px;
     margin-bottom: +15px;
-    font-family: "Apple SD Gothic Neo";
+    font-family:'Pretendard-Regular';
   }
 
 }
