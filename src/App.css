@@ -213,7 +213,7 @@
   }
 
   .logo:hover {
-    filter: drop-shadow(0 0 10px rgb(215, 206, 206));
+    filter: drop-shadow(0 0 10px rgb(255, 234, 0));
   }
 
 }
