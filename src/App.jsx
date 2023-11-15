@@ -1,5 +1,6 @@
 // Code import
 import { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css'
 
 // Light mode SVG
@@ -39,8 +40,8 @@ function App() {
   }, []);
 
   return (
-    <div className="background-image">
-    <>
+    <div className="background">
+    <div className="scroll">
       <img src={profile} className="profile-picture" alt="Profile picture" />
       <h1 className="profile-title">Intrinsic iOS Developer</h1>
       <h2 className="profile-name"> 박준현 / 4rNe5 </h2>
@@ -100,7 +101,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </div>
     </div>
   )
 }

@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,8 +7,11 @@
   text-align: center;
 }
 
+.scroll {
+  overflow: hidden;
+}
+
 .logo {
-  height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -78,7 +83,7 @@
   font-weight: bold;
   margin-bottom: -15px;
   font-size: 43px;
-  font-family: "Noto Sans KR";
+  font-family: Pretendard,'Noto Sans KR', sans-serif;
 }
 
 
@@ -86,14 +91,14 @@
   font-weight: bold;
   font-size: 28px;
   margin-bottom: -20px;
-  font-family: "Noto Sans KR";
+  font-family: Pretendard,'Noto Sans KR', sans-serif;
 }
 
 .profile-school {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: +40px;
-  font-family: "Noto Sans KR";
+  font-family: Pretendard,'Noto Sans KR', sans-serif;
 }
 
 .divider {
@@ -118,7 +123,6 @@
   }
 
   .logo {
-    height: 6em;
     padding: 10px;
     width: 38px;
     height: 38px;
@@ -137,7 +141,7 @@
     font-weight: bold;
     margin-bottom: -15px;
     font-size: 30px;
-    font-family: "Apple SD Gothic Neo";
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
   }
 
 
@@ -145,14 +149,14 @@
     font-weight: bold;
     font-size: 22px;
     margin-bottom: -20px;
-    font-family: "Apple SD Gothic Neo";
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
   }
 
   .profile-school {
     font-weight: bold;
     font-size: 17px;
     margin-bottom: +15px;
-    font-family: "Apple SD Gothic Neo";
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
   }
 
 }
@@ -164,7 +168,6 @@
   }
 
   .logo {
-    height: 6em;
     padding: 15px;
     width: 45px;
     height: 45px;
@@ -183,7 +186,7 @@
     font-weight: bold;
     margin-bottom: -15px;
     font-size: 30px;
-    font-family: "Apple SD Gothic Neo";
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
   }
 
 
@@ -191,14 +194,14 @@
     font-weight: bold;
     font-size: 22px;
     margin-bottom: -20px;
-    font-family: "Apple SD Gothic Neo";
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
   }
 
   .profile-school {
     font-weight: bold;
     font-size: 17px;
     margin-bottom: +15px;
-    font-family: "Apple SD Gothic Neo";
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
   }
 
 }
