@@ -1,5 +1,12 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
 
+@font-face {
+  font-family: 'LINESeedKR-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/wizfile/font/LINESeedKR-Rg.eot');
+  src:url('https://cdn.jsdelivr.net/gh/wizfile/font/LINESeedKR-Rg.woff') format('woff');
+  font-style: normal;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -140,7 +147,7 @@
   .profile-title {
     font-weight: bold;
     margin-bottom: -15px;
-    font-size: 30px;
+    font-size: 28px;
     font-family: Pretendard,'Noto Sans KR', sans-serif;
   }
 
@@ -185,7 +192,7 @@
   .profile-title {
     font-weight: bold;
     margin-bottom: -15px;
-    font-size: 30px;
+    font-size: 28px;
     font-family: Pretendard,'Noto Sans KR', sans-serif;
   }
 
