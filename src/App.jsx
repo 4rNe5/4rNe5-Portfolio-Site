@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css'
 
 // Light mode SVG
-import profile from './assets/ppr.svg'
+import profileWhite from './profile/Profile_White.png'
 import notionlogo from './assets/notion.svg'
 import instalogo from './assets/instagram2.svg'
 import githublogo from './assets/github2.svg'
@@ -15,6 +15,7 @@ import linkedinlogo from './assets/linkedin2.svg'
 import discordlogo from './assets/discord.svg'
 
 // Dark mode SVG
+import profileDark from './profile/Profile_Black.png'
 import notiondark from './assetdark/notion.svg'
 import instadark from './assetdark/instagram.svg'
 import githubdark from './assetdark/github.svg'
@@ -42,7 +43,7 @@ function App() {
   return (
     <div className="background">
     <div className="scroll">
-      <img src={profile} className="profile-picture" alt="Profile picture" />
+      <img src={isDarkMode ? profileDark : profileWhite} className="profile-picture" alt="Profile picture" />
       <h1 className="profile-title">Intrinsic iOS Developer</h1>
       <h2 className="profile-name"> 박준현 / 4rNe5 </h2>
       <h3 className="profile-school"> On DGSW </h3>
