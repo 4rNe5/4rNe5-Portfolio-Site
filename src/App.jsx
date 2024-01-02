@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="background">
     <div className="scroll">
-      <img src={isDarkMode ? profileDark : profileWhite} className="profile-picture" alt="Profile picture" />
+      <img src={isDarkMode ? profileWhite : profileDark} className="profile-picture" alt="Profile picture" />
       <h1 className="profile-title">Intrinsic iOS Developer</h1>
       <h2 className="profile-name"> 박준현 / 4rNe5 </h2>
       <h3 className="profile-school"> On DGSW </h3>
