@@ -1,6 +1,5 @@
 // Code import
 import { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css'
 
 // Light mode SVG
@@ -42,67 +41,66 @@ function App() {
 
   return (
     <div className="background">
-    <div className="scroll">
-      <img src={isDarkMode ? profileWhite : profileDark} className="profile-picture" alt="Profile picture" />
-      <h1 className="profile-title">Intrinsic iOS Developer</h1>
-      <h2 className="profile-name"> 박준현 / 4rNe5 </h2>
-      <h3 className="profile-school"> On DGSW </h3>
-      <hr className="divider" />
-      <div>
-        <div className="fstline">
-          <div className="logo-container">
-            <a href="https://www.instagram.com/4_rne5/" target="_blank" rel="noreferrer">
-              <img src={isDarkMode ? instadark : instalogo} className="logo" alt="Insta logo" />
-            </a>
-            <span className="logo-text">Instagram</span>
-          </div>
-          <div className="logo-container">
-            <a href="https://www.discord.com/users/796907962811285506" target="_blank" rel="noreferrer">
-              <img src={isDarkMode ? discorddark : discordlogo} className="logo" alt="discord logo" />
-            </a>
-            <span className="logo-text">Mail</span>
-          </div>
-        <div className="logo-container">
-        <a href="https://github.com/4rNe5" target="_blank" rel="noreferrer">
-          <img src={isDarkMode ? githubdark : githublogo} className="logo" alt="Github logo" />
-        </a>
-          <span className="logo-text">Github</span>
-        </div>
-          <div className="logo-container hidem">
-            <a href="https://t.me/A4rne5" target="_blank" rel="noreferrer">
-              <img src={isDarkMode ? telegramdark : telegramlogo} className="logo" alt="Telegram logo" />
-            </a>
-            <span className="logo-text">Mail</span>
-          </div>
-      </div>
+      <div className="scroll">
+        <img src={isDarkMode ? profileWhite : profileDark} className="profile-picture" alt="Profile picture"/>
+        <h1 className="profile-title">Intrinsic App Developer</h1>
+        <h2 className="profile-name"> 박준현 / 4rNe5 </h2>
+        <hr className="divider"/>
         <div>
-          <div className="logo-container">
-            <a href="http://4rne5-portfolio.kro.kr" target="_blank" rel="noreferrer">
-              <img src={isDarkMode ? notiondark : notionlogo} className="logo" alt="Notion logo" />
-            </a>
-            <span className="logo-text">Notion</span>
+          <div className="fstline">
+            <div className="logo-container">
+              <a href="https://www.instagram.com/4_rne5/" target="_blank" rel="noreferrer">
+                <img src={isDarkMode ? instadark : instalogo} className="logo" alt="Insta logo"/>
+              </a>
+              <span className="logo-text">Instagram</span>
+            </div>
+            <div className="logo-container">
+              <a href="https://www.discord.com/users/796907962811285506" target="_blank" rel="noreferrer">
+                <img src={isDarkMode ? discorddark : discordlogo} className="logo" alt="discord logo"/>
+              </a>
+              <span className="logo-text">Mail</span>
+            </div>
+            <div className="logo-container">
+              <a href="https://github.com/4rNe5" target="_blank" rel="noreferrer">
+                <img src={isDarkMode ? githubdark : githublogo} className="logo" alt="Github logo"/>
+              </a>
+              <span className="logo-text">Github</span>
+            </div>
+            <div className="logo-container hidem">
+              <a href="hhttps://t.me/ar_oi_op" target="_blank" rel="noreferrer">
+                <img src={isDarkMode ? telegramdark : telegramlogo} className="logo" alt="Telegram logo"/>
+              </a>
+              <span className="logo-text">Mail</span>
+            </div>
           </div>
-          <div className="logo-container">
-            <a href="mailto:contact@4rne5.dev" target="_blank" rel="noreferrer">
-              <img src={isDarkMode ? maildark : maillogo} className="logo" alt="Mail logo" />
-            </a>
-            <span className="logo-text">Mail</span>
-          </div>
-          <div className="logo-container">
-            <a href="https://toss.me/4rne5" target="_blank" rel="noreferrer">
-              <img src={isDarkMode ? moneydark : moneylogo} className="logo" alt="Money logo" />
-            </a>
-            <span className="logo-text">Mail</span>
-          </div>
-          <div className="logo-container">
-            <a href="https://www.linkedin.com/in/4rNe5" target="_blank" rel="noreferrer">
-              <img src={isDarkMode ? linkedindark : linkedinlogo} className="logo" alt="linkedin logo" />
-            </a>
-            <span className="logo-text">Mail</span>
+          <div>
+            <div className="logo-container">
+              <a href="http://4rne5-portfolio.kro.kr" target="_blank" rel="noreferrer">
+                <img src={isDarkMode ? notiondark : notionlogo} className="logo" alt="Notion logo"/>
+              </a>
+              <span className="logo-text">Notion</span>
+            </div>
+            <div className="logo-container">
+              <a href="mailto:contact@4rne5.dev" target="_blank" rel="noreferrer">
+                <img src={isDarkMode ? maildark : maillogo} className="logo" alt="Mail logo"/>
+              </a>
+              <span className="logo-text">Mail</span>
+            </div>
+            <div className="logo-container">
+              <a href="https://toss.me/4rne5" target="_blank" rel="noreferrer">
+                <img src={isDarkMode ? moneydark : moneylogo} className="logo" alt="Money logo"/>
+              </a>
+              <span className="logo-text">Mail</span>
+            </div>
+            <div className="logo-container">
+              <a href="https://www.linkedin.com/in/4rNe5" target="_blank" rel="noreferrer">
+                <img src={isDarkMode ? linkedindark : linkedinlogo} className="logo" alt="linkedin logo"/>
+              </a>
+              <span className="logo-text">Mail</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   )
 }
