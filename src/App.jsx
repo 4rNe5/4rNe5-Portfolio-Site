@@ -86,12 +86,12 @@ function App() {
               </a>
               <span className="logo-text">Mail</span>
             </div>
-            <div className="logo-container">
+{/*             <div className="logo-container">
               <a href="https://toss.me/4rne5" target="_blank" rel="noreferrer">
                 <img src={isDarkMode ? moneydark : moneylogo} className="logo" alt="Money logo"/>
               </a>
               <span className="logo-text">Mail</span>
-            </div>
+            </div> */}
             <div className="logo-container">
               <a href="https://www.linkedin.com/in/4rNe5" target="_blank" rel="noreferrer">
                 <img src={isDarkMode ? linkedindark : linkedinlogo} className="logo" alt="linkedin logo"/>
