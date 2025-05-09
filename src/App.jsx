@@ -42,9 +42,9 @@ function App() {
   return (
     <div className="background">
       <div className="scroll">
-        <img src={isDarkMode ? profileWhite : profileDark} className="profile-picture" alt="Profile picture"/>
+{/*         <img src={isDarkMode ? profileWhite : profileDark} className="profile-picture" alt="Profile picture"/>
         <h1 className="profile-title">Intrinsic App Developer</h1>
-        <h2 className="profile-name"> 박준현 / 4rNe5 </h2>
+        <h2 className="profile-name"> 박준현 / 4rNe5 </h2> */}
         <hr className="divider"/>
         <div>
           <div className="fstline">
@@ -99,6 +99,7 @@ function App() {
               <span className="logo-text">Mail</span>
             </div>
           </div>
+          <hr className="divider"/>
         </div>
       </div>
     </div>
